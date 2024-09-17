@@ -7,4 +7,6 @@ crear archivo navegacion
     ejemplo de menu perfecto
 crear archivo tablas.html
     ejemplo
+crear Archuvo Imagen 
+    ejemplo 
  -->
