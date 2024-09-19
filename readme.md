@@ -11,5 +11,9 @@ crear Archuvo Imagen
     ejemplo 
 crear archivo audio y video
     ejemplo
-    
+
+sesion 02 - formularios
+crear archivo formularios html
+describir los inputs, selects, atributos nuevos
+
  -->

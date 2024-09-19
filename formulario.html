@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios Articulos</h1>
+    <form action="/mensaje.html">
+        <div>
+            <label for="codigoArtuculo">Codigo</label>
+            <input placeholder="CodigoArticulo" id="codigoArtuculo" type="text"  maxlength="10" autocomplete="off" required/>
+        </div>
+        <br/>
+        <div>
+            <label for="nombreArticulo">Nombre</label>
+            <input placeholder="Nombre Articulo" id="nombreArticulo" type="text" maxlength="100" autocomplete="off" required/>
+        </div>
+        <br/>
+        
+        <div>
+            <label for="unidadMedida">Unidad de Medida</label>
+            <select  name="" id="unidadMedida">
+                <option value="und">Unidad</option>
+                <option value="kg">Kilogramo</option>
+                <option value="m">Metro</option>
+            </select>
+        </div>
+        <br/>
+
+        <div>
+            <label for="precioVenta">Precio Venta</label>
+            <input placeholder="0.00" id="precioVenta" type="number" min="0.00" step="0.01" required/>
+        </div>
+        <br/>
+        <div>
+            <label for="fechaRegistro">Fecha Registro</label>
+            <input id="fechaRegistro" type="date" / min="2024-09-18" required>
+        </div>
+        <br/>
+        <div>
+            <label for="activoArticulo">Activo</label>
+            <input id="activoArticulo" type="checkbox" checked>
+        </div>
+        <br />
+        <button type="submit">Guardar</button>
+        <button type="reset">Nuevo</button>
+    </form>
+</body>
+</html>
